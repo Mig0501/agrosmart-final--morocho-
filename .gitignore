@@ -38,3 +38,4 @@ Thumbs.db
 # --- Secretos: nunca subir claves reales ---
 *.env
 application-local.properties
+"log.txt" 

@@ -1,4 +1,10 @@
 package ec.edu.espe.agrosmart.repository;
 
-public class ProductoRepository {
+import ec.edu.espe.agrosmart.entity.ProductoEntity;
+import org.springframework.data.jpa.repository.JpaRepository;
+import org.springframework.stereotype.Repository;
+
+@Repository
+public interface ProductoRepository extends JpaRepository<ProductoEntity, Long> {
+    // JpaRepository ya tiene métodos como: findAll(), findById(), save(), delete()
 }
